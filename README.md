@@ -1,1 +1,1 @@
-# refind-sublime
+# sddm-sublime
