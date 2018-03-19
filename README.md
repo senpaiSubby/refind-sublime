@@ -22,7 +22,7 @@ Here's an example menuentry configuration (from the screenshot)
 
 ```nginx
 menuentry "Arch" {
-  icon /EFI/refind/sublime/icons/os_arch.png
+  icon /EFI/refind/refind-sublime/icons/os_arch.png
   volume Arch
   ostype Linux
   loader /vmlinuz-linux-zen
@@ -31,7 +31,7 @@ menuentry "Arch" {
 }
 
 menuentry "Windows 10" {
-	icon /boot/EFI/refind/sublime/icons/os_win.png
+	icon /boot/EFI/refind/refind-sublime/icons/os_win.png
 	loader /EFI/Microsoft/Boot/bootmgfw.efi
 	disabled
 }
